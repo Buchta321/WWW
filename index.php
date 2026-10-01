@@ -7,6 +7,7 @@ require "header.php"
         <p>Vítejte na oficiálních stránkách hasičů ze Suchého Dolu. Sledujte naše zásahy, soutěže a kulturní dění v naší obci.</p>
         <a href="#novinky" class="btn">Poslední novinky</a>
         
+        
     </section>
 
     <div class="events-banner">

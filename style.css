@@ -83,6 +83,7 @@
      font-weight: bold;
      transition: var(--transition);
      display: inline-block;
+     
  }
 
  .btn:hover {
@@ -91,10 +92,10 @@
  }
 
  .hero {
-     background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url('https://images.unsplash.com/photo-1596706913508-34f71317d745?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+     background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0.8)), url('obrazky/uvod.jpg') center/cover no-repeat;
      color: var(--white);
      text-align: center;
-     padding: 7rem 2rem;
+     padding: 15rem 2rem;
  }
 
  .hero h1 {
