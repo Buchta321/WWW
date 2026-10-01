@@ -6,6 +6,7 @@ require "header.php"
         <h1>Sbor dobrovolných hasičů</h1>
         <p>Vítejte na oficiálních stránkách hasičů ze Suchého Dolu. Sledujte naše zásahy, soutěže a kulturní dění v naší obci.</p>
         <a href="#novinky" class="btn">Poslední novinky</a>
+        
     </section>
 
     <div class="events-banner">
@@ -31,7 +32,7 @@ require "header.php"
 
         <div class="grid">
             <article class="card">
-                <img src="https://images.unsplash.com/photo-1502660485600-983df5a6b0db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Soutěž" class="card-img">
+                <img src="obrazky/uvod.jpg" alt="Soutěž" class="card-img">
                 <div class="card-content">
                     <span class="card-meta">Soutěže / 19. prosince 2025</span>
                     <h3 class="card-title">Soutěžní shrnutí roku 2025</h3>
