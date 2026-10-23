@@ -38,7 +38,7 @@ require "header.php"
                     <span class="card-meta">Soutěže / 19. prosince 2025</span>
                     <h3 class="card-title">Soutěžní shrnutí roku 2025</h3>
                     <p class="card-desc">Rok 2025 se nám blíží ke konci. Dospěláci i děti odsoutěžili co mohli. V článku naleznete seznam soutěží, kterých jsme se zúčastnili...</p>
-                    <a href="#" class="card-link">Číst dál &rarr;</a>
+                    <a href="Soutěže.php" class="card-link">Číst dál &rarr;</a>
                 </div>
             </article>
 

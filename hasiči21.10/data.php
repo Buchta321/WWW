@@ -1,0 +1,87 @@
+<?php
+// data.php - Centrální seznam všech článků
+$novinky = [
+    1 => [
+        'id' => 1,
+        'kategorie' => 'souteze',
+        'kategorie_nazev' => 'Soutěže',
+        'datum' => '19. prosince 2026',
+        'obrazek' => 'obrazky/uvod.jpg',
+        'nadpis' => 'Soutěžní shrnutí roku 2026',
+        'popis' => 'Rok 2026 se nám blíží ke konci. Dospěláci i děti odsoutěžili co mohli...',
+        'obsah' => '<p>Rok 2026 se nám blíží ke konci. Dospěláci i děti odsoutěžili co mohli. V tomto roce se naše družstva zúčastnila celkem 12 soutěží po celém okrese.</p>
+                    <p>Mezi naše největší úspěchy patří 1. místo na okrskové soutěži a skvělé výsledky mládeže v pětiboji. Děkujeme všem členům za reprezentaci sboru!</p>'
+    ],
+    2 => [
+        'id' => 2,
+        'kategorie' => 'kulturniAkce',
+        'kategorie_nazev' => 'Kulturní akce',
+        'datum' => '18. listopadu 2025',
+        'obrazek' => 'https://images.unsplash.com/photo-1549451371-64aa98a6f660?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'nadpis' => 'Hasičský ples 2025',
+        'popis' => 'V sobotu 22. listopadu jsme pořádali tradiční hasičský ples...',
+        'obsah' => '<p>V sobotu 22. listopadu jsme pořádali tradiční hasičský ples v místní sokolovně...</p>'
+    ],
+    3 => [
+        'id' => 3,
+        'kategorie' => 'souteze',
+        'kategorie_nazev' => 'Soutěže',
+        'datum' => '22. září 2025',
+        'obrazek' => 'https://images.unsplash.com/photo-1588665671190-72120e8a705b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'nadpis' => 'Imitace zásahu při požáru – Hlavňov',
+        'popis' => 'V sobotu 4.10. 2025 jsme se zúčastnili speciální soutěže v Hlavňově...',
+        'obsah' => '<p>V sobotu 4.10. 2025 jsme se zúčastnili speciální cvičné soutěže v Hlavňově...</p>'
+    ],
+    4=> [
+        'id' => 4,
+        'kategorie' => 'historie',
+        'kategorie_nazev' => 'Historie sboru',
+        'datum' => 'Rok 1885',
+        'obrazek' => 'obrazky/Hasici_Znak.png',
+        'obrazek_style' => 'width: 220px !important; height: 220px !important; object-fit: contain; display: block; margin: 1rem auto 0;',
+        'nadpis' => 'Založení sboru v Suchém Dole',
+        'popis' => 'Nahlédněte do historie založení našeho sboru a prvních kroků zakladatelů...',
+        'obsah' => '<p>Na Výroční valné hromadě 15.12.1999 se vedení sboru chopila mladší generace a činnost sboru se opět dostala do obrátek. Podařilo se sestavit kolektiv mladých hasičů, které dodnes vede Vítek Michal. Začal se pořádat dnes již tradiční Suchodolský den, který se skládá z odpoledne pro děti , fotbalového turnaje místních družstev a večerní zábavy na venkovním parketu. Ve spolupráci s obcí byl uspořádán zájezd do zvonařské dílny Marie Tomáškové – Dytrychové v Brodku u Přerova spojený s návštěvou ranče Bolka Polívky a vinného sklípku. Obecní úřad zakoupil auto-vysílačku. Zástupci sboru se pravidelně účastní školení pořádaných Okresním sdružením hasičů Náchod. V rámci posvícení je pořádána hasičská soutěž o putovní Svatováclavský pohár. Kolektiv mládeže a mužů se účastní všech soutěží v širokém okolí. V květnu 2001 odjelo 8 členů sboru do Hradčan u Mimoně, kde se konal pokus o překonání světového rekordu v dálkové dopravě vody. Po dlouhém dni byl dosavadní německý rekord překonán v délce 47,2 km. V červenci o rok později na součinnostním cvičení Hradčany 2002 byly hadice nataženy do délky 57,2 km. Voda se čerpala z nedalekého rybníku a předávala se ze stroje do stroje. V témže roce se muži přihlásili do Náchodské hasičské ligy, aby nasbírali nové zkušenosti. Roku 2003 se Konají oslavy 120. let založení Hasičského sboru v Suchém Dole současně se srazem rodáků. Zúčastnili se jí představitelé okolních sborů z Hlavňova, Pěkova, Police nad Metují, Velkého Poříčí, Velké Ledhuje, Bezděkova, Bukovice, Broumova a profesionální hasiči z Velkého Poříčí s vysokozdvižnou plošinou.  Na valné hromadě jsme od Obce obdrželi Pamětní list a jako dar nové plovoucí čerpadlo Kawasaki.<img src="obrazky/cerpadlo.jpg" style="width: 40%; height: auto; display: block; margin: 0 auto;" alt="Plovoucí čerpadlo Kawasaki"></p><p>Následující rok 2004 je při tradiční posvícenské soutěži o Svatováclavský pohár podepsána smlouva o příhraniční spolupráci SDH Suchý Důl s Straz Wambierzyce. Spolu se svazem žen se uskutečnil zájezd do Polska. Přes zastávku na Boru kde jsme si prošli Bledné skály jsme dojeli do Wambierzyc kde jsme navštívili zbrojnici, muzeum a Baziliku. Nakonec jsme zavítali do Zoo Šoltýse. Na valné hromadě tento rok probíhalo jednání a schvalování ohledně praporu sboru. Zúčastnění členové sboru byli pro pořízení praporu s tím, že na jedné straně bude zobrazen sv. Florián a na druhé straně obecní znak. Tento prapor byl přivezen 30.5.2005 od paní Miroslavy Holečkové z Nového Města n./M. Vysvěcen byl po slavnostním průvodu v kapli Marie Lurské. Do Polské Ścinawky Średni je 3.4.2006 uskutečněn zájezd společně s ČSŽ na Velikonoční výstavu . Zájezd byl spojen s obědem a prohlídkou mini ZOO. V neděli na posvícení 24.9 je za Kollertovou bytovkou pořádán závod bejčí silou. Zde změřili sílu extrémně velký býk pana Klimeše Václava z Pohoře a pár koní. Později zkusilo býka přetáhnout i několik zdatných mladých chlapů.  Okrskové cvičení se konalo 25.5.2007 kde byla čerpána voda Kollertovým dvorem přes trhovici až na slavný. Zúčastnilo se 9 sborů a cvičení bylo hodnoceno kladně. Po této generálce jsme byli připraveni na provedení mezinárodního cvičení a to s družstvem z Wambierzyc. Voda byla tažena od Kohlových Jablůňkou až na pohoř. Na 7.6.2008 byl stanoven datum oslav 125 let od založení sboru. Naše hasičské auto dosluhuje a tak obec zakoupila novější Avii z Havlovic.</p><br><p>Auto bylo slavnostně posvěceno při posvícení v pondělí společně s pomníkem padlých. Staré auto odkoupila obec Batňovice. Dunění rockových tamtamů to byl název festivalu, který se konal 12.9.2009. Byl to první ročník a velice se povedl. Festival je pořádán do dnes. Tento rok je na valné hromadě zvolen nový výbor.</p><br><p>Pokus o překonání světového rekordu v dálkové dopravě následující rok 2010 se zúčastnilo 8 našich členů s technikou. Akce se konala 8 května v Dolních Loučkách. Převýšení 541 m, délka 63,46 km. Zúčastnilo se celkem 288 sborů a bylo použito 234 čerpadel. Na akci se podílelo celkem 2592 hasičů. Celkem bylo přemístěno 580 m3 vody. Rekord byl uznán. Rekord byl překonán, ale zbytek roku pro nás byl smutný.</p><br><p>Dne 8.července začala v 12:45 hořet hořejší kaplička v Ticháčkově lese.Byl vyhlášen poplach ale než dorazili hasiči ke kapličce byla v poslední fázi hoření. Místo kde kaple stála, má bohatou historii. Starosta obce a zastupitelé rozhodli o znovu postavení kapličky a byla vyhlášena veřejná sbírka. Na místě se koná několik benefičních koncertů. Následující rok 2011 se v červnu koná poklep a vysvěcení základního kamene nové kapličky.</p><img src="obrazky/stara_kaplicka.jpg" style="width: 40%; height: auto; display: block; margin: 0 auto;"alt="Stará kaplička"><br><br><p>Rok 2012 začal hned dvěma našimi zásahy. Dne 28.ledna pátrací akce po dvou ztracených osobách na Slavném a 16.února zásah na rovince pořád půdy. V měsíci dubnu dne 14 se uskutečnil zájezd do likérky Rudolfa Jelínka ve Vizovicích. Dne 8.července, dva roky poté co byla podpálena a následně shořela se konalo za pěkného počasí vysvěcení nově postavené kapličky ve stejném stylu.Vysvěcení se konalo za účasti kardinála Dominika Duky, arcibiskupa Pražského. Oslava 130 let od založení hasičského sboru a 100 let založení hasičů na Slavném se konala dne 19-20.7.2013 na parkovišti na Slavném. Větší váhu měla oslava 100 let Slavenských hasičů. V pátek 29.7 byla slavností schůze. Zúčastnili se i spřátelené hasičské sbory z Polska. Josef Reimann přečetl vyčerpávající zprávu o historii hasičů na slavném. Na valné hromadě kde probíhala oslava 130 let založení hasičského sboru jsme od obce obdrželi elektrocentrálu značky Honda. Josef Reimann přečetl další vyčerpávající zprávu o historii.<br><br>V roce 2014 se rekonstruuje kulturní dům v Suchém Dole a tak všechny akce jsou pořádány venku. V červenci je v Šolcově lese otevřena naučná stezka. Dne 29.11 se konalo za velmi nepříjemného počasí znovuotevření kulturního domu. Tentýž den večer se konala slavnostní valná hromada, kde byl zvolen nový výbor.<br>Členové místního sboru pomáhají při brigádách v obci. Pořádají kulturní akce: hasičský ples, Pouťovou zábavu, Suchodolský den, rock fest Dunění rockových tamtamů a tradiční Suchodolské posvícení. Každý člen nad 60 let dostává ke každým svým kulatým narozeninám dárkový balíček. Sbor byl oceněn obecním úřadem pamětním listem za práci s mládeží. Spolupracujeme s polskými hasiči z Wambierzyc a Ścinawky Średni.<br><br>K datu 29.11.2014 má náš sbor 81 členů z toho 17 dětí.</p>',
+    ],
+    5=> [
+        'id' => 5,
+        'kategorie' => 'historie',
+        'kategorie_nazev' => 'Historie sboru',
+        'datum' => 'Rok 1885',
+        'obrazek' => 'obrazky/Znak_Old.jpg',
+        'obrazek_style' => 'width: 220px !important; height: 220px !important; object-fit: contain; display: block; margin: 1rem auto 0;',
+        'nadpis' => 'Založení sboru v Suchém Dole',
+        'popis' => 'Nahlédněte do historie založení našeho sboru a prvních kroků zakladatelů...',
+        'obsah' => '<p>První knihu, která dokumentovala činnost „Suchodolských“ hasičů začal psát v roce 1891 učitel zdejší školy David Kosinka. Dne 14.ledna 1883 byl na výzvu učitele Jana Stahla ustanoven prozatímní výbor hasičského spolku, který pracoval v deseti členném složení.<br><br>Úvodní článek stavov zněl: „Účelem spolku jest při požárech v Suchodole a ve vůkolí životy a majetek obyvatelstva s obětavostí hájiti a chrániti. Pro snadnější dosažení účelu toho zavede se ve sboru přísná kázeň a pravidelná cvičení“. <br><br>Do konce roku 1883 čítala členská základna 56 mužů a spolek se stal členem okresní hasičské jednoty „Metuj“ okresu Policko – Náchodského a zemské ústřední jednoty pro království České. Jeden z prvních zápisů psaných Davidem Kosinkou zní: „25.května 1891 spolek spěchal ku požáru do Pěkova, kdež vydatné pomoci poskytl. Vyhořely dva statky, požár vznikl úderem blesku“.<br><br>Další pravidelné zápisy jsou teprve od roku 1912 zapsané Janem Martincem. V letech 1912 – 1914 zasahoval sbor při požárech v České Metuji, ve Žďáře, v Žabokrkách, v Bezděkově a Vysoké Srbské. Přichází první světová válka. Tato událost postihuje i náš sbor. Od roku 1919 prováděl zápisy do pamětní knihy Antonín Švorčík. V roce 1923 se koná v Suchém Dole župní sjezd. O pět let později měl sbor 78 členů a 17 členek. V září téhož roku bylo zahájeno kopání veřejného vodovodu a postaveno 18 požárních hydrantů. 18. května 1930 se představilo družstvo žen při cvičení, při kterém obsluhovalo ruční stříkačku. Byl znázorněn požár školy. Muži prováděli záchranu dětí pomocí smýkací plachty. Během následujících pěti let zasahoval sbor ve Žďáře, České Metuji a ve Lhotě. V roce 1935 bylo sestaveno první žákovské družstvo se šestnácti chlapci.<br><br>Od roku 1938 zapisoval do knihy Antonín Kohl a rokem 1940 stručné zápisy v kronice končí. Přišla mobilizace a většina členů byla povolána na vojnu. Dne 19. května 1939 byl položen základní kámen ke stavbě obecního domu a hasičské zbrojnice a v říjnu téhož roku byla stavba ukončena. 9.června 1940 byla do nové zbrojnice převezena ruční stříkačka. Protože už přestávala vyhovovat potřebám sboru, proběhlo 22.července téhož roku jednání s firmou Stratílek o koupi v té době moderní stříkačky 36 HP v ceně 29.400,- Kčs. Na její pořízení proběhla sbírka, podstatnou část (10.000,- Kč) věnoval Jan Ticháček, továrník ze Žďára.Nová motorová stříkačka poprvé zasahovala při požáru stohu lnu ve Žďáře. V lednu 1942 hořela tírna lnu a to opět ve Žďáře. Poplach byl vyhlášen v noci a zásah stěžoval mráz – 32 °C. Dne 9.května 1945 byla naše země osvobozena a hasičské sbory se zúčastnily odzbrojování německých vojáků. V poválečných dnech si místní hasiči přivezli vojenské auto Borgward B3000. Byla to původně pojízdná dílna, která byla předělána pro účely sboru.<br><br><div style="display: flex; gap: 20px;"><img src="obrazky/StaryVuz.jpg" style="width: 40%; height: auto;" alt="Auto"><img src="obrazky/StaryVuz2.jpg" style="width: 40%; height: auto;" alt="Auto2"></div><br><br>Dne 29.března 1952 zasahoval sbor při požáru hospodářského stavení Jaroslava Pinkavy v Hlavňově. Téhož roku vypukl požár ve skalách na Hvězdě. Z našeho sboru se zúčastnilo 20 členů. Nataženo bylo 3.400 metrů hadic a vodu si předávalo 10 motorových stříkaček. O rok později byla zakoupena nová siréna a umístěna na zbrojnici. V roce 1954 byl ústředním výborem přijat nový název „Československý svaz požární ochrany“ a z hasičů se stali požárníci. V letech 1949 – 1956 byla odpracována spousta brigádnických hodin pro MNV, např. pomoc při stavbě hřiště, přestavby mostu u Holubových na požární nádrž, zatrubení Hanzlovy zahrady a dokončení požární nádrže před zbrojnicí. Roku 1957 byla postavena sušárna hadic. O rok později je opět založeno družstvo žáků a cvičil je Josef Ansorge. Další roky se nesly ve znamení pravidelných preventivních prohlídek, účastí na okrskových cvičeních, mnoho hodin bylo též věnováno údržbě svěřené požární techniky, čištění požárních nádrží, sezónních výpomocí JZD a účasti na akcích „Z“.<br><br>V roce 1971 proběhlo sloučení základní organizace Suchý Důl a Slavný. V roce 1978 se konalo noční cvičení na Slavném za účasti dvanácti sborů. Voda byla dodávána ze Suchého Dolu ze stroje do stroje. Protože toto cvičení skončilo špatným výsledkem, bylo rozhodnuto o stavbě požární nádrže na Slavném. O čtyři roky později zasahoval náš sbor u dvou požárů v obci. Prvním zásahem byl požár stodoly u Heinzelů na Pohoři a druhým vznícení skládky u Bartoňů.<br><br>Ve dnech 24.6. – 26.6. 1983 proběhly oslavy k 100.výročí založení sboru v Suchém Dole. Sboru byla předána nová motorová stříkačka PPS 12. Na jaře o dva roky později byl ustanoven kroužek mladých požárníků a vedoucím se stal Pavel Jirků. V tomto období probíhala v Broumovských stěnách těžba dřeva pomocí helikoptéry. Následkem této těžby vznikaly lesní požáry na našem katastru<br><br><img src="obrazky/Mašina.jpg" style="width: 40%; height: auto; display: block; margin: 0 auto;"alt="Stará kaplička"><br><br>Suchodolští hasiči se jako reprezentanti JZD Hvězda Police nad Metují účastnili soutěží JZD v požárním sportu a sklízeli úspěchy po celém okrese. Mladí požárníci postoupili do okresního kola hry Plamen konané v Olivětíně. Z patnácti sborů obsadili 8.místo. V roce 1989 vstoupily do řad sboru 4 ženy. O rok později došlo ke změně názvu a z požárníků jsou opět hasiči. Nastává generační útlum a tím i konec mladých hasičů. V následujících letech se sbor zúčastňoval soutěží, pořádal kulturní akce a zájezdy po Evropě, které zajišťoval především Švorčík Josef. Podívali jsme se do Itálie, Německa, Rakouska, Švýcarska, Lichtenštejnska, Holandska a Belgie.Činnost sboru v obci byla ale nevýrazná. Proběhla oslava 115.výročí od založení SDH Suchý Důl. Prodalo se hasičské auto z roku 1945. Obec v roce 1996 zakoupila automobil Avia (rok výroby 1970). Sbor se také může pochlubit koňskou ruční stříkačkou z roku 1913, kdy byl sbor na Slavném založen.<br><br><img src="obrazky/Avie.jpg" style="width: 40%; height: auto;" alt="Avie"><img src="obrazky/Konska.jpg" style="width: 40%; height: auto;" alt="Konska"></p>'   
+        
+    ],
+    6 => [
+        'id' => 6,
+        'kategorie' => 'kulturniAkce',
+        'kategorie_nazev' => 'Kulturní akce',
+        'datum' => '18. listopadu 2025',
+        'obrazek' => 'obrazky/uvod2.jpg',
+        'nadpis' => 'Svatováclavský pohár 2025',
+        'popis' => 'V sobotu 22. listopadu jsme pořádali tradiční hasičský ples...',
+        'obsah' => '<p>Rok se s rokem sešel a opět se přiblížil poslední víkend v září. Každý rok na toto datum připadá Suchodolské posvícení. Tento rok tedy 26.9-28.9.  To se skládá ze sobotní hasičské soutěže O putovní Svatováclavský pohár, večerní posvícenské zábavy, nedělní traktoriády a pondělního tradičního průvodu.
+Přípravy na soutěž začali už ve čtvrtek. Postavili jsme trať na soutěž na Martincově louce. Další sraz jsme měli v pátek aby jsme taky trochu potrénovali.
+V sobotu sraz kolem půl 8. Postavili jsme stánky, nanosili stoly, lavice a občerstvení. Vše mohlo začít. Příjezd družstev od 9:00 a v 9:30 nástup družstev. Moc děkujeme SHD Žďárky za zapůjčení časomíry.
+Na soutěž dorazilo 16 družstev mužů a 3 družstva žen + suchodolské děti.
+Jako třetí na řadě jdou borci z našeho „ačka“ a s nádherným časem 40:92s berou 3.místo. Naše ,,béčko,, bere 2.misto s časem 37:56. Naše ,,céčko,, bere 7.misto s časem 45:25s
+Všechny výsledky naleznete níže v tabulce</p>'
+    ],
+    7 => [
+        'id' => 7,
+        'kategorie' => 'akce',
+        'kategorie_nazev' => 'Pozvánka',
+        'datum' => '10. ledna 2026',
+        'datum_akce' => '2026-11-22', // Formát YYYY-MM-DD pro PHP
+        'datum_akce_formatovane' => '22. 11. 2026', // Pro zobrazení lidem
+        'obrazek' => 'obrazky/uvod.jpg',
+        'nadpis' => 'Traktoriáda 2026',
+        'popis' => 'Tradiční závod a výstava traktorů v Suchém Dole...',
+        'obsah' => '<p>Podrobný program akce...</p>'
+    ],
+   
+   
+]; 
