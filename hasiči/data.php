@@ -97,5 +97,35 @@ $novinky = [
         'popis' => 'Skvělé výsledky našich mladých hasičů v pětiboji...',
         'obsah' => '<p>Detailní popis...</p>'
     ],
+    10 => [
+        'id' => 10,
+        'kategorie' => 'traktoriada',
+        'kategorie_nazev' => 'Traktoriáda',
+        'datum' => '10. února 2026',
+        'obrazek' => 'obrazky/uvod.jpg',
+        'nadpis' => 'Pokus o rekord v traktoriádě 2026',
+        'popis' => 'Skvělé výsledky našich mladých hasičů v pětiboji...',
+        'obsah' => '<p>Detailní popis...</p>'
+    ],
+    11 => [
+        'id' => 11,
+        'kategorie' => 'traktoriada',
+        'kategorie_nazev' => 'Traktoriáda',
+        'datum' => '10. února 2026',
+        'obrazek' => 'obrazky/uvod.jpg',
+        'nadpis' => 'Pokus o rekord v traktoriádě 2026',
+        'popis' => 'Skvělé výsledky našich mladých hasičů v pětiboji...',
+        'obsah' => '<p>Detailní popis...</p>'
+    ],
+    12 => [
+        'id' => 12,
+        'kategorie' => 'traktoriada',
+        'kategorie_nazev' => 'Traktoriáda',
+        'datum' => '10. února 2026',
+        'obrazek' => 'obrazky/uvod.jpg',
+        'nadpis' => 'Pokus o rekord v traktoriádě 2026',
+        'popis' => 'Skvělé výsledky našich mladých hasičů v pětiboji...',
+        'obsah' => '<p>Detailní popis...</p>'
+    ],
    
 ];
